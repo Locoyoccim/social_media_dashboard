@@ -19,9 +19,9 @@ body {
     padding: 15px 20px;
   }
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1000px) {
   body{
-    padding: 15px 100px;
+    padding: 0 100px;
   }
 }
 

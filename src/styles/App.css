@@ -7,8 +7,11 @@
   width: 100%;
   gap: 30px;
 }
-.head_container {
-  margin: 50px 0 0 20px;
+.details_container{
+  margin-bottom: 80px;
+}
+.head_container{
+  margin: 30px 0 0 20px;
 }
 .head_container p {
   padding: 0;
@@ -20,6 +23,9 @@
   font-size: 26px;
   font-weight: 500;
   margin-bottom: 10px;
+}
+.overview_container{
+  margin-left: 20px;
 }
 .followers_total {
   color: var(--Desaturated_Blue_Text);
@@ -38,7 +44,7 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .dark_mode_container p {
   color: var(--Desaturated_Blue_Text);
@@ -92,11 +98,14 @@ section {
  .head_container{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
  }
  .dark_mode_container{
   display: flex;
   align-items: center;
   gap: 15px;
+ }
+ .dark_mode_container{
+  margin: 0;
  }
 }
