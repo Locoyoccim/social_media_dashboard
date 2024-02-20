@@ -1,0 +1,96 @@
+@import url(/src/styles/colors.css);
+
+#top_card_container {
+  background-color: var(--Dark_Desaturated_Blue_CardBG);
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 20px;
+  width: 100%;
+  min-width: 335px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content:space-around;
+  padding: 15px 0;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+#top_card_container:hover{
+  background-color: var(--Dark_Grayish_Blue_Text);
+}
+.top_card {
+  color: var(--Desaturated_Blue_Text);
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  column-gap: 15px;
+}
+.followers_number {
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--White_Text);
+  text-align: center;
+
+}
+.definition {
+  font-size: 16px;
+  letter-spacing: 5px;
+  color: var(--Desaturated_Blue_Text);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+#today {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+}
+#today.up{
+    color: var(--Lime_Green);
+}
+#today.down{
+    color: var(--Bright_Red);
+}
+#today.same{
+    color: var(--Desaturated_Blue_Text);
+}
+.arrow {
+  width: 12px;
+  height: 7px;
+}
+.facebook {
+  border-top: 5px solid var(--Facebook);
+}
+.twitter {
+  border-top: 5px solid var(--Twitter);
+}
+.instagram {
+  border-image: var(--Instagram);
+  border-image-slice: 1;
+  border-image-width: 5px 0 0 0;
+  border-style: solid;
+}
+.youtube {
+  border-top: solid 5px var(--YouTube);
+}
+@media screen and (min-width: 767px) {
+  #top_card_container{
+    max-width: 290px;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media screen and (min-width: 1000px) {
+  #top_card_container{
+    max-width: 450px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  #top_card_container{
+    width: 280px;
+    min-width: 200px;
+    max-width: none;
+  }
+}

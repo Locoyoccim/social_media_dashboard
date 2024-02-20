@@ -1,0 +1,69 @@
+@import url(/src/styles/colors.css);
+
+#overview {
+  background-color: var(--Dark_Desaturated_Blue_CardBG);
+  max-width: 380px;
+  min-width: 335px;
+  height: 150px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#overview * {
+  padding: 0;
+  margin: 0;
+}
+.type_img,
+.number_porcent {
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo_overview {
+  width: 23px;
+  height: 23px;
+}
+.type_img p {
+  color: var(--Desaturated_Blue_Text);
+  font-weight: 400;
+  font-size: 16px;
+}
+.number_porcent :first-child {
+  color: var(--White_Text);
+  font-size: 36px;
+  font-weight: 700;
+}
+.arrow_porcent {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 5px;
+}
+.up {
+  color: var(--Lime_Green);
+}
+.down {
+  color: var(--Bright_Red);
+}
+@media screen and (min-width: 767px) {
+  #overview {
+    width: 210px;
+  }
+}
+@media screen and (min-width: 1000px) {
+    #overview{
+      min-width: 450px;
+      margin: 0;
+    }
+  }
+  @media screen and (min-width: 1400px) {
+    #overview{
+      width: 280px;
+      min-width: 200px;
+      max-width: none;
+      margin: 0;
+    }
+  }

@@ -1,0 +1,39 @@
+@import url(/src/styles/colors.css);
+@import url(/src/styles/App.css);
+@import url(/src/styles/index.css);
+
+/*Dark Mode*/
+body.dark{
+    background-color: var(--White_BG);
+    .dark_mode_button{
+      background: var(--Toggle-Light);
+      transition: all .3s ease;
+    }
+    .dark_mode_button:hover{
+      background: var(--Toggle-Dark);
+      transition: all .3s ease;
+    }
+    .dark_mode_button p{
+        color: var(--Dark_Grayish_Blue_Text);
+    }
+    .social,
+    .overview_container {
+      color: var(--Very_Dark_Blue_Text);
+    }
+    .followers_total{
+      color: var(--Dark_Grayish_Blue_Text);
+    }
+    /*Followers component*/
+    #top_card_container, #overview{
+      background-color: var(--Very_Pale_Blue_TopBGPattern);
+    }
+    #top_card_container:hover, #overview:hover{
+      background-color: var(--Light_Grayish_Blue_CardBG);
+    }
+    .top_card, .definition, .type_img p{
+      color: var(--Dark_Grayish_Blue_Text);
+    }
+    .followers_number, .number_porcent p{
+      color: var(--Very_Dark_Blue_Text);
+    }
+  }
