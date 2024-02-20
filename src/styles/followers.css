@@ -7,7 +7,7 @@
   margin: 0 20px;
   width: 100%;
   min-width: 335px;
-  height: 220px;
+  height: 200px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -84,7 +84,14 @@
 }
 @media screen and (min-width: 1000px) {
   #top_card_container{
-    width: 240px;
+    width: 220px;
+    min-width: 200px;
+    max-width: none;
+  }
+}
+@media screen and (min-width: 1238px) {
+  #top_card_container{
+    width: 275px;
     min-width: 200px;
     max-width: none;
   }
